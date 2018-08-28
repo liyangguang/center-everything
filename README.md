@@ -1,4 +1,7 @@
 # center-everything
+
+**This project is abandoned. There are a few alternatives online :)**
+
 This is a demo for (almost) every methods to center things in CSS.
 
 ## Project setup
