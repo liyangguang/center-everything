@@ -1,0 +1,40 @@
+{
+  "both": {
+    "flex": {
+      "description": "Using `display: flex` and 'align-items: center'.",
+      "html": "<div class=\"container\" style=\"justify-content: center;align-items: center;display: flex;\"><div class=\"item\">I am centered!</div></div>"
+    },
+    "table": {
+      "description": "Using `table`.",
+      "html": "<div class=\"container\" style=\"display: table-cell;vertical-align: middle;width: 500px;text-align:center;\"><div class=\"item\" style=\"\">I am centered!</div></div>"
+    }
+  },
+  "vertical": {
+    "flex": {
+      "description": "Using `display: flex` and 'align-items: center'.",
+      "html": "<div class=\"container\" style=\"align-items: center;display: flex;\"><div class=\"item\">I am centered!</div></div>"
+    },
+    "table": {
+      "description": "Using `table`.",
+      "html": "<div class=\"container\" style=\"display: table-cell;vertical-align: middle;\"><div class=\"item\" style=\"\">I am centered!</div></div>"
+    },
+    "line-height": {
+      "description": "",
+      "html": "<div class=\"container\" style=\"\"><div class=\"item\" style=\"line-height: 200px;\">I am centered!</div></div>"
+    },
+    "foo": {
+      "description": "",
+      "html": "<div class=\"container\" style=\"\"><div class=\"item\" style=\"\">I am centered!</div></div>"
+    }
+  },
+  "horizontal": {
+    "flex": {
+      "description": "Using `display: flex` and 'align-items: center'.",
+      "html": "<div class=\"container\" style=\"justify-content: center;align-items: center;display: flex;\"><div class=\"item\">I am centered!</div></div>"
+    },
+    "table": {
+      "description": "Using `table`.",
+      "html": "<div class=\"container\" style=\"display: table-cell;vertical-align: middle;\"><div class=\"item\" style=\"\">I am centered!</div></div>"
+    }
+  }
+}

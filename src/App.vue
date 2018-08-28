@@ -1,28 +1,25 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang="pug">
+  Selection
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Selection from './components/Selection.vue'
 
 export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
+  components: {Selection}
 }
 </script>
 
 <style>
-#app {
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
